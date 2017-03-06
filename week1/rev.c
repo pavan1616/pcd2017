@@ -18,5 +18,12 @@ printf("enter the no be reversed\n");
 scanf("%d",&n);
 int d=rev(n);
 printf("the reverse of the number is %d\n",d);
+if (n==d)
+{
+printf("the given number is pallandrome\n");
+}
+else {
+printf("its not a pallendrome\n");
+}
 return 0;
 }
